@@ -32,11 +32,6 @@ def solution(root):
     memo, switch = is_ok(root, memo, switch)
     return switch
 
-    
-
-
-
-
 def test():
     node1 = Node(1, None, None)
     node2 = Node(4, None, None)
